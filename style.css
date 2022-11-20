@@ -2,7 +2,7 @@ body {
     font-family: Roboto;
 }
 
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -168,4 +168,8 @@ body {
     font-weight: bold;
     text-align: center;
     align-self: flex-center;
+}
+
+.footer {
+    padding: 20px 60px;
 }
